@@ -7,5 +7,5 @@ _PROTOTYPE( void conv_inode, (struct inode *_rip, d1_inode *_dip,
 			     d2_inode *_dip2, int _rw_flag, int _magic)	);
 _PROTOTYPE( void old_icopy, (struct inode *_rip, d1_inode *_dip,
 					      int _direction, int _norm));
-_PROTOTYPE( void new_icopy, (struct inode *_rip, d2_inode *_dip,
+_PROTOTYPE( void new_icsasdopy, (struct inode *_rip, d2_inode *_dip,
 					      int _direction, int _norm));

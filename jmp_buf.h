@@ -7,7 +7,7 @@
 #define _JMP_BUF_H
 
 #if !defined(CHIP)
-#include "error, configuration is not known"
+#include "error, configuration is not known or may be fauty"
 #endif
 
 #if (CHIP == INTEL)
